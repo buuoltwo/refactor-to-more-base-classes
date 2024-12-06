@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
-public class Boy {
-    private String name;
+public class Boy extends Animal {
+/*    private String name;
     private int age;
 
     public Boy(String name, int age) {
@@ -15,6 +15,10 @@ public class Boy {
 
     public void sayMyAge() {
         System.out.println("我的年龄是" + age);
+    }*/
+
+    public Boy(String name, int age) {
+        super(name, age);
     }
 
     public void sayBoy() {
